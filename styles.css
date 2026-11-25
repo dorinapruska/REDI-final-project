@@ -105,7 +105,6 @@ h2{
   text-align: center;
 }
 
-<<<<<<< HEAD
 .add-button {
     display: flex;
     height: 48px;
@@ -240,7 +239,6 @@ padding: 0;
     top: 50%;
     transform: translateY(-50%);
 }
-=======
 .card-container {
   display: flex;
   justify-content: center;
@@ -248,7 +246,6 @@ padding: 0;
   min-height: 70vh;
 }
 
->>>>>>> c8133346923d7fa15d1e2c80a323fdf6a159e51e
 /* ── CARD LIST (manage view) ─────────────────────────────────── */
 /* TODO: style the list of cards and the "add card" form */
 
