@@ -228,6 +228,24 @@ padding: 0;
 .group-button:hover {
     filter: brightness(1.1);
 }
+
+.button-frame {
+    display: flex;
+    width: 48px;
+    height: 192px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    box-sizing: border-box;
+
+    position: fixed;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 /* ── CARD LIST (manage view) ─────────────────────────────────── */
 /* TODO: style the list of cards and the "add card" form */
 
