@@ -246,6 +246,101 @@ padding: 0;
   min-height: 70vh;
 }
 
+/* Know it button */
+.know-button {
+    display: flex;
+    width: 184px;
+    height: 56px;
+    padding: 8px 16px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    box-sizing: border-box;
+
+    border-radius: 16px;
+    border: 1.6px solid oklab(72.3% -0.1889 0.1109 / 0.3);
+
+    background: oklab(72.3% -0.1889 0.1109 / 0.2);
+
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+}
+
+/* Know it icon */
+.know-button i {
+    display: flex;
+    width: 32px;
+    height: 32px;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 9999px;
+    background: oklch(72.3% 0.219 149.579deg);
+
+    color: white;
+    font-size: 16px;
+}
+
+.know-button span {
+    color: #00C950;
+    text-align: center;
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.15px;
+}
+
+.no-idea-button {
+    display: flex;
+    width: 184px;
+    height: 56px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+
+    border-radius: 16px;
+    border: 1.6px solid oklab(63.7% 0.2142 0.1014 / 0.3);
+    background: oklab(63.7% 0.2142 0.1014 / 0.2);
+    backdrop-filter: blur(8px);
+
+    cursor: pointer;
+}
+
+.no-idea-button i {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 9999px;
+    background: oklch(63.7% 0.237 25.331deg);
+    color: white;
+    font-size: 16px;
+}
+
+.no-idea-button span {
+    color: #FB2C36;
+    text-align: center;
+    font-family: "SF Pro", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.15px;
+}
+.answer-frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 48px;
+}
 /* ── CARD LIST (manage view) ─────────────────────────────────── */
 /* TODO: style the list of cards and the "add card" form */
 
