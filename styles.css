@@ -4,14 +4,27 @@
    Changing a colour here updates it across the whole app.         */
 :root {
   /* Colours — pick whatever fits your design */
-  --color-bg:      #E5E3DA;
+  --color-bg:      
   --color-primary: #29100C;
   --color-accent:  #513229;
 
   /* Card size — adjust to taste */
   --card-width:  340px;
   --card-height: 200px;
+
 }
+
+body {
+  background: linear-gradient(
+    135deg,
+    #15172E,
+    #581580,
+    #15172E
+  );
+  min-height: 100vh;
+  color: #FFFFFF;
+}
+
 
 
 /* ── RESET ──────────────────────────────────────────────────── */
@@ -47,9 +60,11 @@ h2{
 
 .flip-card {
   background-color: transparent;
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  align-items: center;
+  cursor: pointer;
 }
 
 
@@ -63,10 +78,9 @@ h2{
 }
 
 
-.flip-card:hover .flip-card-inner {
+.flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
-
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -76,17 +90,25 @@ h2{
   backface-visibility: hidden;
 }
 
-.flip-card-front {background: linear-gradient(135deg, #09203C, #254A80);
+.flip-card-front {background: linear-gradient(135deg, #4B5CB8, #603987);
   color: #FFFFFF;
   border-radius: 16px;            
-  color: black;
+  color: #FFFFFF;
 }
 
 .flip-card-back {
-    background-color: #BCD7EC;
-  color: #09203C;
+  background: linear-gradient(135deg, #39275F, #254A80);
+  color: #FFFFFF;
   border-radius: 16px;
   transform: rotateY(180deg);
+ }
+
+.flip-card-front, .flip-card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* ── CARD LIST (manage view) ─────────────────────────────────── */
