@@ -83,8 +83,9 @@ h2{
 }
 
 .flip-card-back {
-  background-color: #706032;
-  color: white;
+    background-color: #BCD7EC;
+  color: #09203C;
+  border-radius: 16px;
   transform: rotateY(180deg);
 }
 
