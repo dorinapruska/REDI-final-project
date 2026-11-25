@@ -341,6 +341,14 @@ padding: 0;
     align-items: center;
     gap: 48px;
 }
+
+.know-button:hover {
+    background: oklab(72.3% -0.1889 0.1109 / 0.4);
+}
+
+.no-idea-button:hover {
+    background: oklab(63.7% 0.2142 0.1014 / 0.4);
+}
 /* ── CARD LIST (manage view) ─────────────────────────────────── */
 /* TODO: style the list of cards and the "add card" form */
 
