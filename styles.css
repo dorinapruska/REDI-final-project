@@ -76,13 +76,14 @@ h2{
   backface-visibility: hidden;
 }
 
-.flip-card-front {
-  background-color: #bbb;
+.flip-card-front {background: linear-gradient(135deg, #09203C, #254A80);
+  color: #FFFFFF;
+  border-radius: 16px;            
   color: black;
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #706032;
   color: white;
   transform: rotateY(180deg);
 }
