@@ -53,8 +53,8 @@ h2{
 
 .flip-card {
   background-color: transparent;
-  width: 500px;
-  height: 500px;
+  width: 416px;
+  height: 480px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   align-items: center;
   justify-content: center;
