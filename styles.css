@@ -2,7 +2,12 @@
    Define your colours and any repeated values here once as
    "variables", then use var(--name) everywhere else in this file.
    Changing a colour here updates it across the whole app.         */
-:root {
+
+.hidden {
+  display: none !important;
+}
+
+   :root {
   --color-bg: #F5F3FF;
   --color-primary: #24163F;
   --color-accent: #594779;
