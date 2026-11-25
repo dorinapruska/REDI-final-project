@@ -75,7 +75,8 @@ function showCard(card) {
 // Write the CSS first, then call this when the user clicks the card.
 
 function flipCard() {
-  // TODO
+  const card = document.querySelector(".flip-card");
+  card.classList.toggle("flipped");
 }
 
 
