@@ -37,27 +37,37 @@ body {
 /* ── LAYOUT ─────────────────────────────────────────────────── */
 /* TODO: style your header, main content area, views, etc. */
 
+
+/* ── TYPOGRAPHY ─────────────────────────────────────────────── */
+
 h1{
   text-align: center;
-  font-size: 42px;
+  font-size: clamp(24px, 4vw, 42px);
   color: var(--color-primary);
   padding: 40px 0px 10px 0px;
 }
 
 h2{
   text-align: center;
-  font-size: 24px;
+  font-size: clamp(16px, 2.5vw, 24px);
   color: var(--color-accent);
   padding: 10px 0px 40px 0px;
 }
 
+h3 {
+  font-size: clamp(18px, 3vw, 28px);
+}
+
+/* ── FLASHCARD ──────────────────────────────────────────────── */
+
 .flip-card {
   background-color: transparent;
-  width: 416px;
-  height: 480px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  align-items: center;
-  justify-content: center;
+  width: 90%;
+  max-width: 416px;
+  max-height: 480px;
+  aspect-ratio: 1 / 1;
+  perspective: 1000px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
